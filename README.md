@@ -19,3 +19,7 @@ For the test, we use the criterion lib.
 The url for the SFML documentation: [https://www.sfml-dev.org/documentation/2.5.1/](https://www.sfml-dev.org/documentation/2.5.1/)
 
 The url for the criterion doucmentation: [https://criterion.readthedocs.io/en/master/index.html](https://criterion.readthedocs.io/en/master/index.html)
+
+# License
+
+For the license please read this file: [LICENSE](LICENSE.md)
