@@ -1,6 +1,7 @@
 # Create a new branch
 
-To create a new branche, please follow the Camel case.
+To create a new branche, don't use number and please follow the Camel case.
+This is a link to the description of the Camel case: [https://techterms.com/definition/camelcase](https://techterms.com/definition/camelcase)
 
 # How to commit
 
