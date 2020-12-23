@@ -2,7 +2,7 @@
 
 If your file is an include, you have to put it on the include folder. Don't be afraid to create subfolder.
 If your file is a file where you contains config, you have to put it in the config folder. Don't be afraid to create subfolder.
-If your file is a test file, you have to put it in the test folder. Don't be afraid to create subfolder. If your test file use a config file, put the config file in a folder crate in the test folder and name it "testFileNameConfig/".
+If your file is a test file, you have to put it in the test folder. Don't be afraid to create subfolder. If your test file use a config file, put the config file in a folder create in the test folder and name it "testFileNameConfig/".
 If your file is a asset, you have to put it on the asset folder. Don't be afraid to create subfolder.
 If your file is a source file, you have to put it on the src folder. Don't be afraid to create subfolder.
 
@@ -53,4 +53,4 @@ If you have an operation, you have to add a space before the operator sign.
 # About the namespace
 
 If you create a lib, you have to create the namespace named like the lib.
-Don't be afraid to create subnamespace
+Don't be afraid to create subnamespace.
