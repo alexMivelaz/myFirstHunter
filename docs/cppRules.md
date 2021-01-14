@@ -49,6 +49,9 @@ Your function can go up to two indentation and can't have double loop.
 
 You have to add a space after this sign: ",", "+", "=", ">", "<", "-", "|", "&", ";".
 If you have an operation, you have to add a space before the operator sign.
+You have to place a space between the variable declaration and the code.
+You can't place variable in public space in your class.
+You have to add a getter and a setter for all of your variable in your class.
 
 # About the namespace
 
