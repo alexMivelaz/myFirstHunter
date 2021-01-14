@@ -1,25 +1,27 @@
-# myFirstHunter
 
-This game is an hunter game make in c++ and the SFML library
+<h2 align="center">myFirstHunter</h2>
+<p align='center'>
+This game is a Duck Hunt-like game made in c++ and the SFML library.
+</p>
 
-# How to contribute
+<h2>How to contribute ?</h2>
 
-For those who want to contribute to this project, please follow the standard located on this file:[cppRules.md](docs/cppRules.md)
+For those who want to contribute to this project, please follow the coding standards located in this file:[cppRules.md](docs/cppRules.md)
 
-The standard who explain how to commit: [commitRules.md](docs/commitRules.md)
+This standard explains how to [commit](docs/commitRules.md)
 
-# Requirement
+<h2>Requirement</h2>
 
-This repository use the SFML Lib, you can download it here:[https://www.sfml-dev.org/](https://www.sfml-dev.org/)
+This repository uses the SFML library, you can download it [here](https://www.sfml-dev.org/)
 
 For the test, we use the criterion lib.
 
 # Documentation
 
-The url for the SFML documentation: [https://www.sfml-dev.org/documentation/2.5.1/](https://www.sfml-dev.org/documentation/2.5.1/)
+The url for the SFML documentation can be found [here](https://www.sfml-dev.org/documentation/2.5.1/)
+And [here](https://criterion.readthedocs.io/en/master/index.html) you can find the url for the criterion doucmentation
 
-The url for the criterion doucmentation: [https://criterion.readthedocs.io/en/master/index.html](https://criterion.readthedocs.io/en/master/index.html)
 
-# License
+<h2>License</h2>
 
-For the license please read this file: [LICENSE](LICENSE.md)
+For the license please read [this file.](LICENSE.md)
