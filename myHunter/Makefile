@@ -5,22 +5,35 @@
 ## I compile all tghe file to compile
 ##
 
-SRC		=	src/main.cpp		\
+CPPFLAGS	=	-iquote ./include
 
-OBJ		=	$(SRC:.cpp=.o)
+SRC			=	src/objectClass/objectConstructor.cpp	\
 
-NAME	=	myHunter
+TEST_SRC	=	unitTest/objectTest/mainObjectTest.cpp	\
+
+OBJ			=	$(SRC:.cpp=.o)
+
+TEST_OBJ	=	$(TEST_SRC:.cpp=.o)
+
+NAME		=	myHunter
+
+TEST_NAME	= 	unit_test
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
 		g++ -o $(NAME) $(OBJ)
 
+test: $(OBJ) $(TEST_OBJ)
+		g++ -o $(TEST_NAME) $(TEST_OBJ) $(OBJ)
+
 clean:
 	rm -rf $(OBJ)
+	rm -rf $(TEST_OBJ)
 
 fclean: clean
 	rm -rf $(NAME)
+	rm -rf $(TEST_NAME)
 
 re: fclean all
 
