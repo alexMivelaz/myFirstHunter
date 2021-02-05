@@ -10,9 +10,13 @@
 
 namespace object {
 
-    object::object()
+    object::object(const std::string &name, const int id)
     {
+        this->_name = name;
+        this->_id = id;
         std::cout << "an object is construct" << std::endl;
+        std::cout << "the name of this object is: " << this->_name << std::endl;
+        std::cout << "the id of this object is: " << this->_id << std::endl;
     }
 
     object::~object()

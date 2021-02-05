@@ -6,15 +6,20 @@
 */
 
 #pragma once
+
+#include <string>
+
 namespace object {
 
     class object
     {
         public:
-            object();
+            object(const std::string &name = "object", const int id = 0);
             virtual ~object();
 
         protected:
+            std::string _name;
+            int _id;
 
         private:
 

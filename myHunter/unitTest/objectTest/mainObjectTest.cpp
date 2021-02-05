@@ -10,5 +10,6 @@
 int main(void)
 {
     object::object obj;
+    object::object obj1("obj1", 1);
     return 0;
 }
