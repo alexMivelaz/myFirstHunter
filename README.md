@@ -9,7 +9,7 @@ This game is a Duck Hunt-like game made in c++ and the SFML library.
 
 For those who want to contribute to this project, please follow the coding standards located in [this file](docs/cppRules.md)
 
-This standard explains how to [commit](docs/commitRules.md)
+This standard explains how to [commit](docs/commitRules.md).
 
 <h2>Requirement</h2>
 
@@ -26,4 +26,4 @@ And [here](https://criterion.readthedocs.io/en/master/index.html) you can find t
 
 <h2>License</h2>
 
-For the license please read [this file.](LICENSE.md)
+For the license please read [this file](LICENSE.md).
